@@ -1,5 +1,3 @@
-import { Issue } from "next/dist/build/swc";
-
 interface IStudent {
   name: string;
   major: string;
@@ -18,6 +16,15 @@ class CreateAccount {
   GetStudentInfo = () => {
     return null;
   };
+}
+
+class filter{
+  constructor(){
+    
+  }
+  name(){
+    return null;
+  }
 }
 
 export default function Home() {
